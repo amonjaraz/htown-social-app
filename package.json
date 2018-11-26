@@ -1,0 +1,25 @@
+{
+  "name": "htown-social-app",
+  "version": "1.0.0",
+  "description": "Another social app but for Houston",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amonjaraz/htown-social-app.git"
+  },
+  "author": "Alex M.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amonjaraz/htown-social-app/issues"
+  },
+  "homepage": "https://github.com/amonjaraz/htown-social-app#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongodb": "^3.1.10",
+    "mongoose": "^5.3.13"
+  }
+}
