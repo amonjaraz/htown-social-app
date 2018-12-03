@@ -7,7 +7,7 @@ var {User} = require('./models/User');
 let app = express();
 app.use(bodyParser.json());
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3002;
 
 app.post('/users', (req,res)=>{
     console.log(req.body);
